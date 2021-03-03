@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    tools:context=".ui.profile.FormEdit">
+
+    <EditText
+        android:id="@+id/editTextProfileFragment"
+        android:hint="@string/add_name"
+        android:layout_marginTop="55dp"
+        android:inputType="text"
+        android:background="@drawable/edit_design"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:elevation="1dp"
+        android:paddingLeft="25dp"
+        android:textColorHint="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaveProfileFragment"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="@drawable/btn_design"
+        android:text="@string/save"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

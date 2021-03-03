@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppNote</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_text">Please enter data</string>
+    <string name="add_name">Please enter your name</string>
+    <string name="save">save</string>
+    <string name="profile">Profile</string>
+    <string name="title">TITLE</string>
+    <string name="clear">Clear</string>
+    <string name="sorting">Sorting</string>
+    <string name="editText">Edit text</string>
+    <string name="date">Date</string>
+    <string name="please_add_your_number">Please enter mobile number</string>
+    <string name="send">Get OTP</string>
+    <string name="codeOPT">Please enter the OTP </string>
+    <string name="verify">Verify</string>
+</resources>
