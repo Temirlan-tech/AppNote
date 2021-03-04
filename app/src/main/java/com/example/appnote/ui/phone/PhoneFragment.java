@@ -51,7 +51,6 @@ public class PhoneFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_phone, container, false);
     }
 
-
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -118,7 +117,6 @@ public class PhoneFragment extends Fragment {
             }
         };
     }
-
 
     // метод для того что зарегать пользователя на нашем сервере
     private void signIn(PhoneAuthCredential phoneAuthCredential) {
